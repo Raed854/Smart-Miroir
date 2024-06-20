@@ -1,0 +1,63 @@
+.allUsersContent {
+  width: 100%;
+  margin: 0 auto;
+  /* margin-top: 6%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+.usersView{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2rem;
+}
+.usersOptions{
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20rem; */
+}
+.tips-number {
+  display: flex;
+  justify-content: space-around;
+  gap: 65%;
+  align-items: flex-start;
+  flex-direction: row;
+  /* border: 1px solid rgb(207, 207, 207); */
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  padding: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: black;
+  font-size: 16.  ;
+}
+
+.optionsUsers {
+  /* background-color: #f2f2f2; */
+  border-top: 1px solid #ddd ;
+}
+
+.tipsAll {
+  margin: 0;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,66 @@
+
+.search-section {
+    width: 80rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: auto;  
+}
+
+.search-input {
+    width: 92%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.search-icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+.search-section {
+    width: 80rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: auto;  
+}
+
+.search-input {
+    width: 92%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.search-icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+@import "rsuite/dist/rsuite.css";
+
+    #root{ padding: 0px; }
+    .DateRangePickerContainer {
+        width: 40rem;
+        float: left; /* Permet à l'élément d'être aligné à gauche */
+        margin-right: 100px; /* Ajoute un espace entre l'élément et le reste du contenu */
+      }

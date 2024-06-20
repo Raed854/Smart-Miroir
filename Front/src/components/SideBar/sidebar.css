@@ -1,0 +1,185 @@
+.containerer {
+    background-color: white;
+    width: 12%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.2s;
+    gap: 3rem;
+    border-radius: 0px;
+    position: fixed;
+    z-index: 1;
+    border-right: 1px solid rgb(183, 181, 181);
+    top: 90px;
+}
+
+.images-frame {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.images-frame img {
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.container:hover {
+    width: 12%;
+    transition: 0.5s;
+    .profile-name {
+        display: block;
+    }
+
+    .option-item-text {
+        display: block;
+    }
+
+    .option-item-text2 {
+        display: block;
+    }
+
+}
+
+.sidebar-headeres {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 1rem;
+    padding-left: 1rem; /* Add padding to space the icon from the left edge */
+}
+
+.profile-name {
+    display: none;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.option-item-text {
+    font-size: 20px;
+    color: black;
+   
+}
+
+.icons {
+    color: black;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5%;
+}
+
+.option-item:hover {
+    background-color: black;
+
+    .option-item-text {
+        color: white;
+    }
+
+    .icons {
+        color: white;
+    }
+
+}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+}
+
+.sidebar-bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid rgb(191, 191, 191);
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+}
+
+.option-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.option-item2:hover {
+    background-color: black;
+
+    .option-item-text2 {
+        color: white;
+    }
+
+    .icons2 {
+        color: white;
+    }
+}
+
+.icons2 {
+    color: black;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.option-item-text2 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.profile-name {
+    font-size: 16px;
+}
+
+
+
+.hamburger{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.link, .link:visited, .link:hover, .link:active {
+    color: inherit;
+    /* or you can use transparent color */
+    /* color: transparent; */
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+@import "rsuite/dist/rsuite.css";
+
+    #root{ padding: 0px; }
+    .DateRangePickerContainer {
+        width: 40rem;
+        float: left; /* Permet à l'élément d'être aligné à gauche */
+        margin-right: 100px; /* Ajoute un espace entre l'élément et le reste du contenu */
+      }

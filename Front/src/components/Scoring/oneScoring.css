@@ -1,0 +1,34 @@
+.one-scoring-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #6CBB61;
+}
+
+.tip-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tip-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.tip-name-content {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30%;
+}
+
+
+
+
+
+

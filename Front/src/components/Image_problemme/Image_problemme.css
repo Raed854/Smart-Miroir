@@ -1,0 +1,45 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  background-color: #fff;
+  width: 200px; /* Largeur de la carte */
+  height: 250px; /* Hauteur de la carte (image + titre) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card img {
+  width: 200px; /* Largeur de l'image */
+  height: 200px; /* Hauteur de l'image */
+  object-fit: cover; /* Redimensionner l'image tout en conservant son aspect */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card h2 {
+  margin: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-list {
+  display: flex;
+  align-items: flex-start; /* Aligner les cartes horizontalement */
+  flex-wrap: wrap; /* Envelopper les cartes si elles dépassent la largeur */
+  justify-content: space-between; /* Espace uniformément les cartes horizontalement */
+}
+
+.app {
+  max-width: 1000px; /* Largeur maximale de l'application */
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Ajuster la taille de la carte pour tenir compte de l'espacement entre les cartes */
+.card:nth-child(3n) {
+  margin-right: 0; /* Supprimer la marge à droite pour chaque troisième carte */
+}

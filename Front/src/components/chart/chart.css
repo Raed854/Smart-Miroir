@@ -1,0 +1,39 @@
+
+
+  
+  /* Exemple de styles */
+  .DateRangePickerContainer {
+    width: 40rem;
+  }
+  
+
+.search-section {
+    width: 100rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: auto;  
+}
+
+.search-input {
+    width: 92%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.search-icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+
+
